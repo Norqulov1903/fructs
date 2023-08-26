@@ -1,0 +1,295 @@
+@font-face {
+  font-family: Blo chetten;
+  src: url("../font/BalooChettan-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.sayt {
+  width: 99.8%;
+  height: 1300px;
+  font-family: Blo chetten;
+}
+.container {
+  width: 80%;
+  height: 800px;
+
+  margin: auto;
+  margin-top: 20px;
+}
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  list-style: none;
+}
+header ul li {
+  margin: 0 20px;
+}
+header ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Baloo Chettan 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: gray;
+  font-family: Blo chetten;
+  font-weight: 500;
+}
+header ul li a:hover {
+  color: black;
+  border-bottom: 3px solid gray;
+}
+header button {
+  width: 160px;
+  padding: 15px 50px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #59be29 0%, #59be29 100%);
+  box-shadow: 0px 10px 20px rgba(22, 52, 7, 0.1);
+  border-radius: 20px 80px;
+  border: none;
+  color: white;
+}
+.card {
+  width: 49%;
+  height: 535px;
+}
+.header_card {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.card h4 {
+  font-family: "Baloo Chettan 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 150%;
+  /* identical to box height, or 38px */
+  font-family: Blo chetten;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #0a1902;
+}
+.card h1 {
+  font-family: "Baloo Chettan 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 140.108px;
+  line-height: 90%;
+  /* or 109px */
+  margin-top: 20px;
+  font-family: Blo chetten;
+  font-weight: 700;
+
+  color: #59be29;
+}
+.card p {
+  margin-top: 40px;
+  color: gray;
+  margin-bottom: 30px;
+}
+.card button {
+  width: 179px;
+  padding: 15px;
+  color: white;
+  border: none;
+  background: linear-gradient(180deg, #59be29 0%, #59be29 100%);
+  box-shadow: 0px 10px 20px rgba(22, 52, 7, 0.15);
+  border-radius: 20px 80px;
+}
+#button {
+  width: 179px;
+  padding: 15px;
+  color: black;
+  border: none;
+  background: #ffffff;
+  border: 1px solid rgba(89, 190, 41, 0.3);
+  box-shadow: 0px 10px 20px rgba(22, 52, 7, 0.15);
+  border-radius: 20px 80px;
+  margin-left: 27px;
+}
+.card img {
+  width: 800px;
+  height: 533px;
+}
+.card_nth {
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.card_inner_nth {
+  width: 50%;
+  height: 500px;
+}
+.card_inner_nth h1 {
+  font-family: "Baloo Chettan 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 130%;
+  /* or 64px */
+  font-family: Blo chetten;
+
+  color: #0a1902;
+}
+.card_inner_nth p {
+  font-family: "Baloo Chettan 2";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+  font-family: Blo chetten;
+
+  color: #0a1902;
+}
+
+.rasm {
+  width: 120px;
+  height: 50px;
+
+  margin-left: auto;
+  margin-top: -67px;
+}
+
+.card_inner_nth p {
+  margin-top: 50px;
+  font-family: "Baloo Chettan 2";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+
+  color: #0a1902;
+
+  opacity: 0.7;
+}
+.raqam{
+  width: 500px;
+  height: auto;
+ 
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+}
+.ded{
+  width:50PX;
+  
+  height: 50px;
+
+  border-radius: 50%;
+  text-align: center;
+}
+.ded h2{
+  font-size: 35px;
+  border-radius: 50%;
+  box-shadow:  0 0 5px black;
+  color: #82CD5E;
+
+
+}
+.raqam__card{
+  width: 230px;
+  height: 140px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dedi {
+  width: 130px;
+  height: 140px;
+
+  display: flex;
+  align-items: center;
+  
+  flex-direction: column;
+  text-align: left;
+}
+.dedi h3{
+  color: #59be29;
+  font-size: 60px;
+  margin-top: 20px;
+}
+.dedi h6{
+  color: gray;
+}
+.yawil{
+  width: 140px;
+  height: 1px ;
+  border: 1px solid #59be29;
+  background-color: #59be29;
+}
+.box{
+  width: 90%;
+  height: 600px;
+
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+}
+.box_card{
+  width: 29%;
+  height: 572px;
+
+text-align: center;
+border-radius: 10px;
+border: 1px solid transparent;
+}
+.box_card h3{
+  padding: 15px;
+}
+.box_card p{
+  color: gray;
+padding: 10px ;
+}
+.box_card button{
+  width: 150px;
+  color: white;
+  border: none;
+  margin-top: 40px;
+  padding: 15px 20px;
+  background: linear-gradient(180deg, #59BE29 0%, #59BE29 100%);
+box-shadow: 0px 10px 20px rgba(22, 52, 7, 0.15);
+border-radius: 20px 80px;
+border: 1px solid transparent;
+}
+.box_card:hover{
+  box-shadow: 0 0 5px rgb(103, 101, 101);
+}
+.box_card h6{
+  font-size: 35px;
+  color: #59BE29;
+}
+.box_card button:hover{
+  border: 1px solid #59BE29;
+  color: gold;
+  
+}
